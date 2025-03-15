@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signIn.css">
+    
+
+</head>
+<body>
+    <div class="login-container">
+        <h2>Sign In</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="btn">Sign In</button>
+            <p class="error-message" id="errorMessage"></p>
+        </form>
+        <div class="register-link">
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+            <p><a href="bhoj.html" id="backToHome">← Back to Home</a></p>
+        </div>
+    </div>
+    <script src="signIn.js"></script>
+</body>
+</html>
